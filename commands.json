@@ -1,0 +1,1 @@
+{"register":{"description":"Регистрирует новую команду\nПараметры:\nname - имя команды\ndescription - описание команды\nclass - класс с логикой команды - пространство имен разделять двойным слешом","class":"ConsoleCommands\\Commands\\Registrar"}}
