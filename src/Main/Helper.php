@@ -46,7 +46,7 @@ class Helper
             $this->commandData = $this->registeredCommands[$commandName] ?? [];
 
             if ($this->commandData === []) {
-                print("Команда {$commandName} не зарегистрирована");
+                print("Команда {$commandName} не зарегистрирована\n");
                 return;
             }
 

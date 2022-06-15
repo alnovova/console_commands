@@ -18,7 +18,7 @@ class ShowSelf extends AbstractCommand
             "Arguments: \n";
 
         foreach ($this->args as $arg) {
-            $message .= "  -  {$message}\n";
+            $message .= "  -  {$arg}\n";
         }
 
         $message .= "\nOptions: \n";
@@ -31,6 +31,6 @@ class ShowSelf extends AbstractCommand
             }
         }
 
-        print($message);
+        print($message . "\n");
     }
 }

@@ -51,7 +51,7 @@ class ArgsParser
     {
         preg_match('#\[(\w+)=(.+)\]#', $arg, $matches);
         if ($matches !== []) {
-            $this->commandParams[$matches[1]] = $matches[2];
+            $this->commandParams[$matches[1]][] = $matches[2];
             return true;
         }
         return false;
